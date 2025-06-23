@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фролов Кирилл — Резюме</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script>
+    document.documentElement.classList.add('dark');
+  </script>
+</head>
+<body class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white font-sans">
+  <header class="p-6 border-b border-gray-700">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-4xl font-extrabold tracking-tight">Фролов Кирилл Андреевич</h1>
+      <p class="text-lg text-gray-400 mt-1">Python разработчик</p>
+      <div class="mt-3 space-x-4 text-sm">
+        <a href="mailto:ffrolov.kirill@yandex.ru" class="text-blue-400 hover:underline">ffrolov.kirill@yandex.ru</a>
+        <a href="https://t.me/ffrolov_kirill" class="text-blue-400 hover:underline">Telegram</a>
+        <a href="https://www.linkedin.com/in/kirill-frolov123/" class="text-blue-400 hover:underline">LinkedIn</a>
+        <a href="https://github.com/jokkojja" class="text-blue-400 hover:underline">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+    <section class="mb-12">
+      <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Обо мне</h2>
+      <p class="text-gray-300">Ценю четко организованные процессы, прозрачное планирование и возможность видеть долгосрочные перспективы. Уделяю большое внимание качеству кода и документации, так как считаю их основой для поддержки и масштабирования проектов. Приверженец Clean Code и SOLID (в разумных пределах), люблю автоматизировать рутину и оставлять после себя понятные инструменты.</p>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Опыт работы</h2>
+      <div class="space-y-6">
+        <div class="bg-gray-800 p-5 rounded-xl shadow-lg">
+          <h3 class="text-xl font-bold">ООО Интеллектуальная видеоаналитика, Иннополис <span class="text-gray-400">(08.2023 — н.в.)</span></h3>
+          <p class="italic text-gray-400">Software Engineer</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
+            <li>Спроектировал архитектуру и реализовал 5 микросервисов для анализа изображений с камер дорожного движения (детекция загрязнения, оценка дорожного покрытия и т.п.).</li>
+            <li>Автоматизировал систему оповещений через вебхуки при выявлении аномалий — повысил скорость реагирования технической службы.</li>
+            <li>Настроил end-to-end процесс от проектирования до продакшн-деплоя, включая CI/CD и мониторинг (Telegraf, InfluxDB, Grafana).</li>
+            <li>Создал систему интеграционных тестов на основе BDD (behave + Gherkin) с надстройкой над gRPC API и внедрил её в CI/CD.</li>
+            <li>Наставлял младших разработчиков, внедрил code review и стандарты Clean Code.</li>
+            <li>Создал внутренние гайдлайны и документацию для legacy-продуктов, что сократило onboarding новых сотрудников.</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-800 p-5 rounded-xl shadow-lg">
+          <h3 class="text-xl font-bold">Navian Investment Group <span class="text-gray-400">(08.2021 — 03.2023)</span></h3>
+          <p class="italic text-gray-400">Data Scientist</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
+            <li>Построил ML-модель регрессии (MAPE 8.4%) для предсказания цен на недвижимость.</li>
+            <li>Разработал OCR-алгоритм для извлечения площади объекта с чертежей (точность — 85%).</li>
+            <li>Создал систему геоматчинга, увеличив точность координат объектов на 30%.</li>
+            <li>Автоматизировал сбор и агрегацию данных по 25 000+ полигонам Великобритании.</li>
+            <li>Разработал асинхронные серверные парсеры для недвижимости (Hemnet, Booli).</li>
+            <li>Интегрировал ML-модуль в рекомендательную систему компании.</li>
+          </ul>
+        </div>
+
+        <div class="bg-gray-800 p-5 rounded-xl shadow-lg">
+          <h3 class="text-xl font-bold">LinaTech, Краснодар <span class="text-gray-400">(07.2022 — 02.2023)</span></h3>
+          <p class="italic text-gray-400">Data Scientist</p>
+          <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
+            <li>Разработал веб-приложения на Python/Dash для классификации продукции по видео/изображениям.</li>
+            <li>Реализовал загрузку пользовательских изображений и обучение моделей внутри приложения.</li>
+            <li>Оптимизировал пайплайн обработки видео в реальном времени.</li>
+            <li>Упаковал и задеплоил решение в Docker, внедрил на сервер совместно с DevOps-инженером.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+<section class="mb-12">
+  <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Сертификаты</h2>
+  <div class="bg-gray-800 p-5 rounded-xl shadow-lg">
+    <h3 class="text-xl font-bold">Асинхронная архитектура: связи между сервисами <span class="text-gray-400">(2025)</span></h3>
+    <p class="text-gray-300 mt-2">Научился проектировать коммуникации между микросервисами так, чтобы избежать распределённого монолита. Получил практические навыки выбора между синхронным и асинхронным взаимодействием, использования брокеров сообщений, проектирования событийных API и миграции от устаревших архитектур</p>
+    <div class="mt-4">
+      <img src="../assets/серт_шаблон.png" alt="Сертификат" class="rounded-lg shadow w-full max-w-md">
+    </div>
+    <div class="mt-4 space-x-4 text-sm">
+      <a href="assets/certificate.png" class="text-blue-400 hover:underline">Посмотреть сертификат (PNG)</a>
+      <a href="https://github.com/jokkojja/async-architecture" class="text-blue-400 hover:underline">GitHub проекта</a>
+    </div>
+  </div>
+</section>
+
+    <section>
+      <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Навыки</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm text-gray-200">
+        <span class="bg-gray-700 rounded-full px-3 py-1">Python</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">FastAPI</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">Docker</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">Redis</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">Grafana</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">PyTorch</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">MongoDB</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">OpenCV</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">CI/CD</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">Behave</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">Git</span>
+        <span class="bg-gray-700 rounded-full px-3 py-1">Linux</span>
+      </div>
+    </section>
+
+    <footer class="mt-20 text-center text-sm text-gray-500">
+      © 2025 Кирилл Фролов. Сделано с ♥ на Python и Tailwind CSS
+    </footer>
+  </main>
+</body>
+</html>
