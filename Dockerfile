@@ -17,4 +17,4 @@ RUN chown -R resume:resume /resume
 
 USER resume
 
-ENTRYPOINT ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
+ENTRYPOINT ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "2055"]
