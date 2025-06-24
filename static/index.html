@@ -48,14 +48,34 @@
         <div class="bg-gray-800 p-5 rounded-xl shadow-lg">
           <h3 class="text-xl font-bold">ООО Интеллектуальная видеоаналитика, Иннополис <span class="text-gray-400">(08.2023 — н.в.)</span></h3>
           <p class="italic text-gray-400">Software Engineer</p>
-          <ul class="list-disc list-inside text-gray-300 mt-2 space-y-1">
-            <li>Спроектировал архитектуру и реализовал 5 микросервисов для анализа изображений с камер дорожного движения (детекция загрязнения, оценка дорожного покрытия и т.п.).</li>
-            <li>Автоматизировал систему оповещений через вебхуки при выявлении аномалий — повысил скорость реагирования технической службы.</li>
-            <li>Настроил end-to-end процесс от проектирования до продакшн-деплоя, включая CI/CD и мониторинг (Telegraf, InfluxDB, Grafana).</li>
-            <li>Создал систему интеграционных тестов на основе BDD (behave + Gherkin) с надстройкой над gRPC API и внедрил её в CI/CD.</li>
-            <li>Наставлял младших разработчиков, внедрил code review и стандарты Clean Code.</li>
-            <li>Создал внутренние гайдлайны и документацию для legacy-продуктов, что сократило onboarding новых сотрудников.</li>
-          </ul>
+          <ol class="list-decimal list-inside text-gray-300 space-y-4">
+            <li>
+              <p class="font-semibold">Разработка продукта для анализа изображений с камер дорожного движения</p>
+              <ul class="list-disc list-inside ml-4 space-y-1">
+                <li>Выбрал архитектуру и реализовал 5 микросервисов: детекция загрязнения, оценка дорожного покрытия и др.</li>
+                <li>Автоматизировал оповещения через вебхуки (push-модель) при обнаружении аномалий.</li>
+                <li>Реализовал полный жизненный цикл: проектирование → тестирование → деплой в production.</li>
+                <li>Настроил мониторинг системы (latency, throughput, availability, saturation & resource), трейсинг (Sentry), что повысило observability.</li>
+                <li>Работал с джуниор-разработчиками: техническое руководство и сопровождение на проекте.</li>
+              </ul>
+            </li>
+            <li>
+              <p class="font-semibold">Инструмент e2e тестирования с использованием BDD</p>
+              <ul class="list-disc list-inside ml-4 space-y-1">
+                <li>Спроектировал и внедрил систему на основе behave + Gherkin для core продукта.</li>
+                <li>Создал обёртку над gRPC API для удобного описания тестов.</li>
+                <li>Внедрил в CI/CD, что повысило reliability системы и дало устойчивость к регрессии.</li>
+              </ul>
+            </li>
+            <li>
+              <p class="font-semibold">Общее</p>
+              <ul class="list-disc list-inside ml-4 space-y-1">
+                <li>Создал внутренние гайдлайны и документацию для legacy-продуктов, что повысило понимание продуктов внутри компании.</li>
+                <li>Проводил регулярные code review.</li>
+                <li>Провел свыше 10 технических собеседований новых python разработчкиов.</li>
+              </ul>
+            </li>
+          </ol>
         </div>
 
         <div class="bg-gray-800 p-5 rounded-xl shadow-lg">
@@ -83,6 +103,26 @@
         </div>
       </div>
     </section>
+      
+<section class="mb-12">
+  <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Образование</h2>
+  <div class="text-gray-300 space-y-6">
+    <div>
+      <h3 class="text-lg font-bold">Кемеровский государственный университет</h3>
+      <p class="text-sm text-gray-400">Бакалавриат, 2019 — 2023</p>
+      <p>Информационные системы и базы данных.</p>
+      <a href="/static/assets/diploma.pdf" target="_blank" class="inline-block mt-2 text-sm text-blue-400 hover:underline">Посмотреть поближе</a>
+    </div>
+
+    <div>
+      <h3 class="text-lg font-bold">МГТУ им. Н.Э. Баумана</h3>
+      <p class="text-sm text-gray-400">Курс повышения квалификации, 2023</p>
+      <p>Middle Data Scientist: продвинутый специалист по анализу больших данных.</p>
+      <a href="/static/assets/mgtu.pdf" target="_blank" class="inline-block mt-2 text-sm text-blue-400 hover:underline">Посмотреть поближе</a>
+    </div>
+
+  </div>
+</section>
 
 <section class="mb-12">
   <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Сертификаты</h2>
@@ -96,24 +136,28 @@
       <a href="https://github.com/jokkojja/KC-course" class="text-blue-400 hover:underline">GitHub проекта</a>
     </div>
   </div>
-</section>
+  </section>
 
-    <section>
-      <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Навыки</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm text-gray-200">
-        <span class="bg-gray-700 rounded-full px-3 py-1">Python</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">FastAPI</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">Docker</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">Redis</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">Grafana</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">PyTorch</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">MongoDB</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">OpenCV</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">CI/CD</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">Behave</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">Git</span>
-        <span class="bg-gray-700 rounded-full px-3 py-1">Linux</span>
-    </section>
+  <section>
+    <h2 class="text-3xl font-semibold border-b border-gray-600 pb-2 mb-4">Навыки</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm text-gray-200">
+      <span class="bg-gray-700 rounded-full px-3 py-1">Python</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">FastAPI</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Pydantic</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Asyncio</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Pytest</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">RabbitMQ</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Docker</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Redis</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Grafana</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Telegraf</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">InfluxDB</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">MongoDB</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">CI/CD</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Behave</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Git</span>
+      <span class="bg-gray-700 rounded-full px-3 py-1">Linux</span>
+  </section>
 
     <footer class="mt-20 text-center text-sm text-gray-500">
       © 2001-2025 Кирилл Фролов
